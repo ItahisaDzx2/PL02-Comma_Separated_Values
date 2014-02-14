@@ -11,8 +11,8 @@ Descripción:
 
 Enlaces
 ------------
-- [Analizador CSV](http:///): publicado en la github page del proyecto.
-- [Pruebas Unitarias](http://): accesible también a través de la github page del proyecto.
+- [Analizador CSV](http://itahisadzx2.github.io/PL02-Comma_Separated_Values/): publicado en la github page del proyecto.
+- [Pruebas Unitarias](http://itahisadzx2.github.io/PL02-Comma_Separated_Values/tests): accesible también a través de la github page del proyecto.
 
 **por**: *Itahisa Díaz*
 

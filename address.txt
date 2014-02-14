@@ -1,0 +1,4 @@
+name, surname, "st address", city, country, "zip code"
+George, Banks, "Number 17 Cherry Tree Lane", London, England, EC1A
+Bruce, Wayne, "Stately Wayne Manor", "Gotham City", U.S.A., 10451
+Marty, McFly, "Lyon Estates", "Hill Valley, CA", U.S.A., 91185

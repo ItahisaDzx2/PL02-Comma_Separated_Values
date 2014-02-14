@@ -10,22 +10,36 @@
   </head>
   
   <body>
-    <h1>Analizador CSV (Comma Separated Value)</h1>
-    <div>
-      <li>Escriba una cadena en formato CSV.</li>
-	  <li>Pulse sobre "convertir".</li>
-	  <blockquote><b>Obtendrá como salida sus datos convertidos en tabla.</b></blockquote>
-    </div>
-    <table>
+  <div id= "borde">
+	<div id= "titulo" style="color:#edf1cc;">
+    <h1>Analizador CSV</h1>
+	<h2>(Comma Separated Value)</h2>
+	</div>
+    <div id= "instructions" style="color:#960a2f;">
+	<blockquote><h3>INSTRUCCIONES</h3>
+	<p>Para generar una tabla siga los siguientes pasos:
+	<ol >
+      <li>Escriba el contenido en formato CSV.</li>
+	  <li>Pulse sobre "Generar".</li>
+	</ol>
+    </p>
+	</blockquote>
+	</div>
+	<br>
+    <table class="tabla" align="center">
       <tr>
-        <th>Cadena CSV:</th>
-        <td><textarea autofocus cols = "100" rows = "7" id="original"> name, surname, "st address", city, country, "zip code"
+        <th style="color:#edf1cc;">Contenido CSV: </th>
+        <td><textarea autofocus cols = "85" rows = "5" id="original"> name, surname, "st address", city, country, "zip code"
 George, Banks, "Number 17 Cherry Tree Lane", London, England, EC1A
 Bruce, Wayne, "Stately Wayne Manor", "Gotham City", U.S.A., 10451
-Marty, McFly, "Lyon Estates", "Hill Valley, CA", U.S.A., 91185</textarea></td> 
+Marty, McFly, "Lyon Estates", "Hill Valley, CA", U.S.A., 91185</textarea></td>
+
+	<td><button class="Button">Generar</button><br></td>
       </tr>
     </table>
-    <button type="button">convertir</button><br>
+	<br>
+	<br>
     <span class="output" id="finaltable"></span>
+  </div>
   </body>
 </html>

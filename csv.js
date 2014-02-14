@@ -3,8 +3,8 @@
 //A tavés de la función $() JQuery interactúa con la página .
 $(document).ready(function() {
 	/*La función ready de JQuery ejecuta el código tan pronto como el documento está listo para ser manipulado*/
-   $("button").click(function() {
-   /*La función click de jQuery se ejecuta cada vez que se hace click sobre el elemento button.
+   $("Button").click(function() {
+   /*La función click de jQuery se ejecuta cada vez que se hace click sobre el elemento Button.
      Al hacerlo, se ejecutará la función calculate(), encargada de realizar la conversión del csv.*/
      calculate();
    });
@@ -35,7 +35,7 @@ function calculate() {
     
     if (m) {
       if (commonLength && (commonLength != m.length)) {
-        alert('ERROR! Revise las dimensiones de la tabla.');
+        /*alert('ERROR! Revise las dimensiones de la tabla.');*/
         error = true;
       }
       else {

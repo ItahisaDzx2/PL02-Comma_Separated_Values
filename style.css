@@ -19,9 +19,14 @@ html *
 
  #titulo {background-color: #4b525a;margin: 35px;box-shadow: 10px 10px 5px #16192a}
 h1		{ font-family: Candal; text-align: center; font-size: 250%;margin: 0px;}
-h2		{font-family: Candal; text-align: center; font-size: 150%;margin: 0px;}
+h2		{font-family: Candal; text-align: left; font-size: 150%;margin: 0px;}
+h2#subtitle {text-align: center; }
 h3		{font-family: Candal; text-align: auto; font-size: 100%;margin: 0px;}
-th ,td        {vertical-align: center; text-align: center; }   
+th ,td        {
+			vertical-align: center; 
+			text-align: center;
+			border: 1px solid black;
+			}   
 /* #finaltable  * { color: white; background-color: black; }   */
 li ,p		{font-family: Candal;font-size:15px;}
 /* #finaltable table { border-collapse:collapse; } */

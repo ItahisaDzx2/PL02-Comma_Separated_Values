@@ -1,49 +1,35 @@
 html *
 {
-   font-size: large; 
-   /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
-   font-family: Palatino Linotype;
+font-size: large;
+font-family: Palatino Linotype;
 }
-/*@font-face {
-   font-family: ;
-   src: url(fonts/.otf) format('opentype');
- }*/
- /*@font-face {
-   font-family: ;
-   src: url(fonts/.ttf) format('truetype');
- }*/
 @font-face {
-   font-family: Candal;
-   src: url(fonts/Candal.ttf) format('truetype');
- }
+font-family: Candal;
+src: url(fonts/Candal.ttf) format('truetype');
+}
 
- #titulo {background-color: #4b525a;margin: 35px;box-shadow: 10px 10px 5px #16192a}
-h1		{ font-family: Candal; text-align: center; font-size: 250%;margin: 0px;}
-h2		{font-family: Candal; text-align: left; font-size: 150%;margin: 0px;}
-h2#subtitle {text-align: center; }
-h3		{font-family: Candal; text-align: auto; font-size: 100%;margin: 0px;}
+#titulo {background-color: #4b525a; margin: 35px; box-shadow: 10px 10px 5px #16192a}
+#subtitle {text-align: center;}
+h1		{font-family: Candal; text-align: center; font-size: 250%; margin: 0px;}
+h2		{font-family: Candal; text-align: left; font-size: 150%; margin: 0px;}
+h3		{font-family: Candal; text-align: auto; font-size: 100%; margin: 0px;}
+#link 	{font-family: Candal; font-size: 13px; margin: 0px;}
 th ,td        {
-			vertical-align: center; 
-			text-align: center;
-			border: 1px solid black;
-			}   
-/* #finaltable  * { color: white; background-color: black; }   */
+vertical-align: center; 
+text-align: center;
+border: 1px solid black;
+}
 li ,p		{font-family: Candal;font-size:15px;}
-/* #finaltable table { border-collapse:collapse; } */
-/* #finaltable table, td { border:1px solid white; } */
 #finaltable:hover td { background-color: #D6DCA1; } 
 tr:nth-child(odd)    { background-color:#8A98A8;}
 /*8A98A8*/
 tr:nth-child(even)    { background-color:#d3cd43; }
-input        { text-align: right;  border: none;       }     /* Align input to the right  */
+input        { text-align: right;  border: none;       }
 textarea     { border: outset; border-color: white;       }                        
 table        {margin-left:center;border: inset; border-color: #edf1cc;}
 table.center { margin-left:auto; margin-right:auto; }
-
 #result      { border-color: #960a2f; }
 tr.error       { background-color: #960a2f; }
-.tabla {
-}
 .tabla th, .tabla td {
 vertical-align: center; 
 text-align: center;
@@ -51,40 +37,40 @@ background-color:#4b525a;
 }
 /*Estilo del Button---------------------------------------------------------------------------------*/
 .Button {
-	background-color:#960a2f;
-	-webkit-border-top-left-radius:6px;
-	-moz-border-radius-topleft:6px;
-	border-top-left-radius:6px;
-	-webkit-border-top-right-radius:6px;
-	-moz-border-radius-topright:6px;
-	border-top-right-radius:6px;
-	-webkit-border-bottom-right-radius:6px;
-	-moz-border-radius-bottomright:6px;
-	border-bottom-right-radius:6px;
-	-webkit-border-bottom-left-radius:6px;
-	-moz-border-radius-bottomleft:6px;
-	border-bottom-left-radius:6px;
-	text-indent:0px;
-	border:5px solid #c9c7e8;
-	display:inline-block;
-	color:#e6edce;
-	font-family:Candal;
-	font-size:15px;
-	font-style:normal;
-	height:65px;
-	line-height:65px;
-	width:131px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #231847;
+background-color:#960a2f;
+-webkit-border-top-left-radius:6px;
+-moz-border-radius-topleft:6px;
+border-top-left-radius:6px;
+-webkit-border-top-right-radius:6px;
+-moz-border-radius-topright:6px;
+border-top-right-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-bottomright:6px;
+border-bottom-right-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-moz-border-radius-bottomleft:6px;
+border-bottom-left-radius:6px;
+text-indent:0px;
+border:5px solid #c9c7e8;
+display:inline-block;
+color:#e6edce;
+font-family:Candal;
+font-size:15px;
+font-style:normal;
+height:65px;
+line-height:65px;
+width:131px;
+text-decoration:none;
+text-align:center;
+text-shadow:1px 1px 0px #231847;
 }.Button:hover {
-	background-color:#d69fad;
+background-color:#d69fad;
 }.Button:active {
-	position:relative;
-	top:1px;
+position:relative;
+top:1px;
 }
 /*----------------------------------------------------------------------------------------------*/
 body
 {
-	background-color:#d3cd43;
+background-color:#d3cd43;
 }

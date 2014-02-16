@@ -1,45 +1,46 @@
 <html>
-  <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <title>Analizador CSV (Comma Separated Value)</title>
-     <link href="style.css" rel="stylesheet" type="text/css">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Analizador CSV (Comma Separated Value)</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
 
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-     <script type="text/javascript" src="csv.js"></script>
-  </head>
-  
-  <body>
-  <div id= "borde">
-	<div id= "titulo" style="color:#edf1cc;">
-    <h1>Analizador CSV</h1>
-	<h2 id="subtitle">(Comma Separated Value)</h2>
-	</div>
-    <div id= "instructions" style="color:#960a2f;">
-	<blockquote><h3>INSTRUCCIONES</h3>
-	<p>Para generar una tabla siga los siguientes pasos:
-	<ol >
-      <li>Escriba el contenido en formato CSV.</li>
-	  <li>Pulse sobre "Generar".</li>
-	</ol>
-    </p>
-	</blockquote>
-	</div>
-	<br>
-    <table class="tabla" align="center">
-      <tr>
-        <th style="color:#edf1cc;">Contenido CSV: </th>
-        <td><textarea autofocus cols = "85" rows = "5" id="original"> name, surname, "st address", city, country, "zip code"
-George, Banks, "Number 17 Cherry Tree Lane", London, England, EC1A
-Bruce, Wayne, "Stately Wayne Manor", "Gotham City", U.S.A., 10451
-Marty, McFly, "Lyon Estates", "Hill Valley, CA", U.S.A., 91185</textarea></td>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="csv.js"></script>
+	</head>
 
-	<td><button class="Button">Generar</button><br></td>
-      </tr>
-    </table>
-	<br>
-	<br>
-    <span class="output" id="finaltable"></span>
-  </div>
-  </body>
+	<body>
+		<div id= "titulo" style="color:#edf1cc;">
+			<h1>Analizador CSV</h1>
+			<h2 id="subtitle">(Comma Separated Value)</h2>
+		</div>
+
+		<div id= "instructions" style="color:#960a2f;">
+			<blockquote><h3>INSTRUCCIONES</h3>
+				<p>Para generar una tabla siga los siguientes pasos:
+					<ol >
+						<li>Escriba el contenido en formato CSV.</li>
+						<li>Pulse sobre "Generar".</li>
+					</ol>
+				</p>
+			</blockquote>
+		</div>
+		
+		<br>
+		
+		<table class="tabla" align="center">
+			<tr>
+				<th style="color:#edf1cc;">Contenido CSV: </th>
+				<td><textarea autofocus cols = "85" rows = "5" id="original"></textarea></td>
+				<td><button class="Button">Generar</button><br></td>
+			</tr>
+		</table>
+		
+		<div align="center"><a id="link" href="http://itahisadzx2.github.io/PL02-Comma_Separated_Values/tests/" target="_blank">Ejecutar Pruebas</a></div>
+		
+		<br>
+		<br>
+		
+		<span class="output" id="finaltable"></span>
+	</body>
 </html>
